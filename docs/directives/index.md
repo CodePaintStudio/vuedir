@@ -116,7 +116,7 @@ const directives = ref([
     name: 'v-threeclick',
     description: '三击事件处理，支持自定义三击时间',
     link: '/vuedir/directives/threeclick',
-    category: '交互类' 
+    category: '交互类'
   },
   {
     name: "v-drag",
@@ -146,6 +146,11 @@ const directives = ref([
     description: '根据容器的大小动态调整文本的字体大小',
     link: '/vuedir/directives/autoresize',
     category: '视觉类'
+  },{
+    name: 'v-resize',
+    description: '监听元素的尺寸变化，并在尺寸变化时触发回调函数',
+    link: '/vuedir/directives/resize',
+    category: '交互类'
   }
 ]);
 
